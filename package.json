@@ -1,0 +1,22 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "this is a demo for cicd worshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "// here will be the test comand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samaont/CICD.git"
+  },
+  "author": "samaon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samaont/CICD/issues"
+  },
+  "homepage": "https://github.com/samaont/CICD#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

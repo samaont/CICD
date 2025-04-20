@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "this is a demo for cicd worshop",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "// here will be the test comand"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

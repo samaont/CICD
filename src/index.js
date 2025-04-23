@@ -5,7 +5,7 @@ const port = 3000
 function react(req, res){
     console.log("React function hasbeen called!")
     console.log("after circleci")
-    res.send('Hello World!');
+    res.send('Hello from my server!');
 
 }
 

@@ -28,12 +28,13 @@ jobs:
       run: npm run test
    # - name: npm run linder
     #  run: npm run lint
-deploy-server:
- needs: [build-and-test]
- runs-on: ubuntu-latest
- steps:
-  - name: activate deploy hook
-    run: curl https://api.render.com/deploy/srv-d048soruibrs73as4790?key=wHJXCYgdvmw
+
+  deploy-server:
+   needs: [build-and-test]
+   runs-on: ubuntu-latest
+   steps:
+   - name: activate deploy hook
+     run: curl https://api.render.com/deploy/srv-d048soruibrs73as4790?key=wHJXCYgdvmw
 
 
     

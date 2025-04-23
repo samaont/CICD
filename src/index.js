@@ -12,8 +12,7 @@ function react(req, res){
 app.get('/recipes', (req, res) => {
   const recipes = [
     { id: 1, name: 'שקשוקה', ingredients: ['ביצים', 'עגבניות', 'תיבול'] },
-    { id: 2, name: 'פסטה', ingredients: ['פסטה', 'רוטב פסטו'] },
-    { id: 3, name: 'מרק ירקות', ingredients: ['גזר', 'תפוח אדמה', 'בצל'] },
+    { id: 2, name: 'מרק ירקות', ingredients: ['גזר', 'תפוח אדמה', 'בצל'] },
   ];
   res.json(recipes);
 });

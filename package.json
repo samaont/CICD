@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx mocha Tests/*.spec.js --color"
+    "test": "npx mocha Tests/*.spec.js --color",
+    "start": "node src/index.js"
     
 
   },
